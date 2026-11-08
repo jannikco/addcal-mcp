@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-addcal",
+      "description": "Connect AI agents to AddCal using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-addcal/SKILL.md": "b01e335799c8063d754d91b596b165ab07eae889520c7b4e664786b4a8966b4f"
+  }
+}
