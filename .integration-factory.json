@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "c6abb9dc17e389fe21138388107107237e5617a1218d2e7086687179815f98af",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://addcal.co/docs.openapi"
+  ],
+  "id": "addcal-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AddCal MCP setup and connection checker",
+  "description": "Generate AddCal MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "addcal",
+  "appName": "AddCal",
+  "providerDocs": "https://addcal.co/docs.openapi",
+  "providerWebsite": "https://addcal.co/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://addcal.co/documentation/api",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-addcal-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
